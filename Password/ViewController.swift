@@ -1,18 +1,32 @@
-//
-//  ViewController.swift
-//  Password
-//
-//  Created by Bradley Spaulding on 1/29/16.
-//  Copyright © 2016 Motingo. All rights reserved.
-//
-
 import UIKit
 
 class ViewController: UIViewController {
+  let musicPlayer = MusicPlayer()
+  let narrator = Narrator()
 
+  @IBOutlet weak var currentWordLabel: UILabel!
+  
   override func viewDidLoad() {
     super.viewDidLoad()
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    let tapRecognizer = UITapGestureRecognizer(target: self, action: #selector(newWord))
+    self.view.addGestureRecognizer(tapRecognizer)
+    
+    musicPlayer.play({
+      self.newWord()
+    })
+  }
+  
+  func newWord() {
+    currentWordLabel.text = ""
+    let word = WordStore().random().uppercased()
+    print(word)
+    self.currentWordLabel.text = word
+    self.musicPlayer.duck({ done in
+    self.narrator.introNewPassword({
+//        done()
+      })
+    })
   }
 
   override func didReceiveMemoryWarning() {

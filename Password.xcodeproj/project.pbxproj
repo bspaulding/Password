@@ -11,6 +11,16 @@
 		65491D651C5C1FFD00D9347C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65491D641C5C1FFD00D9347C /* ViewController.swift */; };
 		65491D681C5C1FFD00D9347C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65491D661C5C1FFD00D9347C /* Main.storyboard */; };
 		65491D6A1C5C1FFE00D9347C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65491D691C5C1FFE00D9347C /* Assets.xcassets */; };
+		65491D721C5C224900D9347C /* Narrator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65491D711C5C224900D9347C /* Narrator.swift */; };
+		65491D761C5C33C200D9347C /* MusicPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65491D751C5C33C200D9347C /* MusicPlayer.swift */; };
+		65491D791C5C36BD00D9347C /* delay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65491D781C5C36BD00D9347C /* delay.swift */; };
+		65491D7B1C5C392900D9347C /* Password Thinking Song.aif in Resources */ = {isa = PBXBuildFile; fileRef = 65491D7A1C5C392900D9347C /* Password Thinking Song.aif */; };
+		65491D7D1C5C3BAF00D9347C /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65491D7C1C5C3BAE00D9347C /* Queue.swift */; };
+		65491D7F1C5C3F7500D9347C /* password-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 65491D7E1C5C3F7500D9347C /* password-logo.png */; };
+		65491D811C5C44D200D9347C /* password-dots-and-lines.png in Resources */ = {isa = PBXBuildFile; fileRef = 65491D801C5C44D200D9347C /* password-dots-and-lines.png */; };
+		65491D831C5C475400D9347C /* words.txt in Resources */ = {isa = PBXBuildFile; fileRef = 65491D821C5C475400D9347C /* words.txt */; };
+		65491D851C5C4B0300D9347C /* WordStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65491D841C5C4B0300D9347C /* WordStore.swift */; };
+		65491D871C5C4DAD00D9347C /* password-dots-and-lines-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 65491D861C5C4DAD00D9347C /* password-dots-and-lines-bg.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +30,16 @@
 		65491D671C5C1FFD00D9347C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		65491D691C5C1FFE00D9347C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		65491D6B1C5C1FFE00D9347C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65491D711C5C224900D9347C /* Narrator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Narrator.swift; sourceTree = "<group>"; };
+		65491D751C5C33C200D9347C /* MusicPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicPlayer.swift; sourceTree = "<group>"; };
+		65491D781C5C36BD00D9347C /* delay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = delay.swift; sourceTree = "<group>"; };
+		65491D7A1C5C392900D9347C /* Password Thinking Song.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Password Thinking Song.aif"; sourceTree = "<group>"; };
+		65491D7C1C5C3BAE00D9347C /* Queue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		65491D7E1C5C3F7500D9347C /* password-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "password-logo.png"; sourceTree = "<group>"; };
+		65491D801C5C44D200D9347C /* password-dots-and-lines.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "password-dots-and-lines.png"; sourceTree = "<group>"; };
+		65491D821C5C475400D9347C /* words.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = words.txt; sourceTree = "<group>"; };
+		65491D841C5C4B0300D9347C /* WordStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordStore.swift; sourceTree = "<group>"; };
+		65491D861C5C4DAD00D9347C /* password-dots-and-lines-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "password-dots-and-lines-bg.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +77,16 @@
 				65491D661C5C1FFD00D9347C /* Main.storyboard */,
 				65491D691C5C1FFE00D9347C /* Assets.xcassets */,
 				65491D6B1C5C1FFE00D9347C /* Info.plist */,
+				65491D711C5C224900D9347C /* Narrator.swift */,
+				65491D751C5C33C200D9347C /* MusicPlayer.swift */,
+				65491D781C5C36BD00D9347C /* delay.swift */,
+				65491D7A1C5C392900D9347C /* Password Thinking Song.aif */,
+				65491D7E1C5C3F7500D9347C /* password-logo.png */,
+				65491D801C5C44D200D9347C /* password-dots-and-lines.png */,
+				65491D861C5C4DAD00D9347C /* password-dots-and-lines-bg.png */,
+				65491D7C1C5C3BAE00D9347C /* Queue.swift */,
+				65491D821C5C475400D9347C /* words.txt */,
+				65491D841C5C4B0300D9347C /* WordStore.swift */,
 			);
 			path = Password;
 			sourceTree = "<group>";
@@ -93,6 +123,8 @@
 				TargetAttributes = {
 					65491D5E1C5C1FFD00D9347C = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = B92N87UYHH;
+						LastSwiftMigration = 0820;
 					};
 				};
 			};
@@ -119,7 +151,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65491D7B1C5C392900D9347C /* Password Thinking Song.aif in Resources */,
+				65491D7F1C5C3F7500D9347C /* password-logo.png in Resources */,
 				65491D6A1C5C1FFE00D9347C /* Assets.xcassets in Resources */,
+				65491D811C5C44D200D9347C /* password-dots-and-lines.png in Resources */,
+				65491D871C5C4DAD00D9347C /* password-dots-and-lines-bg.png in Resources */,
+				65491D831C5C475400D9347C /* words.txt in Resources */,
 				65491D681C5C1FFD00D9347C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -131,7 +168,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65491D721C5C224900D9347C /* Narrator.swift in Sources */,
+				65491D7D1C5C3BAF00D9347C /* Queue.swift in Sources */,
 				65491D651C5C1FFD00D9347C /* ViewController.swift in Sources */,
+				65491D761C5C33C200D9347C /* MusicPlayer.swift in Sources */,
+				65491D791C5C36BD00D9347C /* delay.swift in Sources */,
+				65491D851C5C4B0300D9347C /* WordStore.swift in Sources */,
 				65491D631C5C1FFD00D9347C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -236,10 +278,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Password/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.motingo.Password;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -248,10 +294,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Password/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.motingo.Password;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -274,6 +324,7 @@
 				65491D701C5C1FFE00D9347C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
